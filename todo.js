@@ -94,7 +94,6 @@ function addTodo(e){
         showAlert("danger","Lütfen bir todo girin");
                 // ("type",message);
     }
-    
     else {
         const validation =  isExist(newTodo);
 
